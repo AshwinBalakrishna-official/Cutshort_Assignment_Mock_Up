@@ -1,0 +1,9 @@
+.progress-btn{
+    width: 400px;
+    background-color: #7f65e9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 0px 10px;
+    font-size: 12px;
+}

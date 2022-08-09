@@ -6,7 +6,7 @@ import Form4 from './Form4';
 
 const FormHolder = (props) => {
   return (
-    <div className='my-3 py-5 text-center'>
+    <div className='my-3 pt-5 text-center'>
           {
               props.step ===1 &&
               <>

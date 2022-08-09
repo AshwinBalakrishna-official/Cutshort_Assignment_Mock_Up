@@ -1,5 +1,13 @@
+.form-group{
+    font-size: 14px;
+}
+.form-group input{
+    font-size: 12px;
+}
 
-
+.form-group span{
+    font-size: 12px;
+}
 .form-layout{
     width: 400px;
 

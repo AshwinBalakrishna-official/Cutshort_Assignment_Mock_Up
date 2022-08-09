@@ -10,6 +10,10 @@
     
 }
 
+.progress-circle :hover{
+    cursor: pointer;
+}
+
 .progress-circle-text{
     margin: auto;
 }

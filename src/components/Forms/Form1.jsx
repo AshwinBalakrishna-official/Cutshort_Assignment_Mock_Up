@@ -19,14 +19,14 @@ const Form1 = () => {
                 {/* Input field 1 */}
                 <div className="form-group">
                     <label htmlFor="Input1">Full Name</label>
-                    <input type="text" className="form-control" id="Input1" placeholder="Example input" /> 
+                    <input type="text" className="form-control" id="Input1" placeholder="Steve Jobs" /> 
                 </div>
                   
                  
                 {/* Input field 2 */} 
                 <div className="form-group">
                     <label htmlFor="Input2">Display Name</label>
-                    <input type="text" className="form-control" id="Input2" placeholder="Another input" /> 
+                    <input type="text" className="form-control" id="Input2" placeholder="Steve" /> 
                 </div>
                   
 

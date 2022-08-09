@@ -5,7 +5,8 @@ const ProgressCircle = (props) => {
   return (
       <>
          
-        <div className='progress-circle' style={props.fill?({backgroundColor:"#7f65e9", color:"white",border:"none"}):({})}>
+        
+        <div onClick={()=>{props.setPg && (props.setPg(props.stepNo))}} className='progress-circle' style={props.fill?({backgroundColor:"#7f65e9", color:"white",border:"none"}):({})}>
               <p className='progress-circle-text' >{props.stepNo}</p>
         </div>
 
@@ -14,6 +15,9 @@ const ProgressCircle = (props) => {
                   {props.fill && <div className='inner-progress-line' style={{width:props.percentage}}></div>}
               </div>
           }
+      
+          
+      
       </>
   )
 }
