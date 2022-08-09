@@ -3,7 +3,7 @@ import React from 'react'
 const progressbar = () => {
   return (
     <>
-          <div className='rounded-progress'>
+          <div className='progress-bar'>
             <p>1</p>           
           </div>      
     </>
