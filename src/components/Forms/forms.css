@@ -17,6 +17,9 @@
     margin-bottom: 5%;
 }
 
+
+
+/* Form-3 elements */
 .card-title-icon{
     text-align: left;
 }
@@ -40,6 +43,20 @@
     text-align: left;
     font-size: 12px;
     
+}
+
+
+
+/* FORM-4 ELEMENTS */
+
+
+.success-icon{
+    border: 1px solid #7f65e9;
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    color: white;
+    background-color: #7f65e9;
 }
 
 /* Mobile view requirements */

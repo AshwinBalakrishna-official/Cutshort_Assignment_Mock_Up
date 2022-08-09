@@ -6,10 +6,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import FormHolder from './components/Forms/FormHolder';
 
 
-
 function App() {
   // To Track the part of the Form
-  const [currPg, setCurrPg] = useState(3)
+  const [currPg, setCurrPg] = useState(4)
 
   return (
     <div className="App">
@@ -17,6 +16,7 @@ function App() {
       <Header />
       <Progressbar step={currPg} />
       <FormHolder step={currPg} />
+
 
     </div>
   );
