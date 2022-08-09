@@ -1,0 +1,26 @@
+
+
+.form-layout{
+    width: 400px;
+
+}
+
+.form-head{
+    margin-bottom: 3%;
+}
+
+.form-head p{
+    font-size: 14px;
+}
+.form-group{
+    text-align: left;
+    margin-bottom: 5%;
+}
+
+/* Mobile view requirements */
+@media only screen and (max-width: 600px) {
+ .form-layout{
+    width: 80%;
+
+    }
+}
