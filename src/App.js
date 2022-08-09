@@ -9,7 +9,7 @@ import FormHolder from './components/Forms/FormHolder';
 
 function App() {
   // To Track the part of the Form
-  const [currPg, setCurrPg] = useState(2)
+  const [currPg, setCurrPg] = useState(3)
 
   return (
     <div className="App">

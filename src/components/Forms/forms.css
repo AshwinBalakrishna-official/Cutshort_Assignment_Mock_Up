@@ -17,6 +17,31 @@
     margin-bottom: 5%;
 }
 
+.card-title-icon{
+    text-align: left;
+}
+
+.card-myself{
+    width:90%;
+
+}
+
+.card-myself :hover{
+    cursor: pointer;
+}
+
+.card-titled{
+    margin: 10px 0px 10px 0px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 600;
+}
+.card-text-left{
+    text-align: left;
+    font-size: 12px;
+    
+}
+
 /* Mobile view requirements */
 @media only screen and (max-width: 600px) {
  .form-layout{
