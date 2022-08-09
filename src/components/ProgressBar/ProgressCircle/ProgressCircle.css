@@ -1,0 +1,34 @@
+.progress-circle{
+    margin: none;
+    border: 1px solid #eaeef5;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.progress-circle-text{
+    margin: auto;
+}
+
+.progress-line{
+    margin: 0%;
+    margin-top: 1.25rem;
+    width: 50px;
+    height: 1px;
+    border: 1px solid #eaeef5;
+    z-index: -1;
+}
+
+.inner-progress-line{
+    
+    padding: 0%;
+    margin-top: -1px;
+    width: 50%;
+    height: 1px;
+    border: 1px solid blueviolet ;
+    z-index: 1;
+}
